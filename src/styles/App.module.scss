@@ -1,0 +1,41 @@
+.App {
+  min-height: 100vh;
+  padding: 0rem 5rem;
+  max-width: 1900px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // font-family: "Reem Kufi", sans-serif !important;
+}
+
+body {
+  width: auto;
+  height: auto;
+  overflow-x: hidden;
+  color: white;
+  background: var(--Black, #151515);
+}
+
+.Footer {
+  padding: 0rem 5rem;
+  background: var(--Dark-Grey, #242424);
+}
+
+@media (max-width: 800px) {
+  .biografia .techWrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .techWrapper {
+    flex-direction: column;
+  }
+  .bannerImagen {
+    width: 100%;
+    max-width: 400px;
+  }
+}

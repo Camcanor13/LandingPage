@@ -1,0 +1,30 @@
+.FooterIcons {
+    border-top: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    gap: 344px;
+    justify-content: space-between;
+    min-height: 120px;
+    margin-top: 3rem;
+}
+
+.name {
+    color: var(--White, #fff);
+    font-family: Space Grotesk;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    /* 100% */
+    letter-spacing: -0.444px;
+}
+
+.icons {
+    width: 192.492px;
+    height: 25px;
+    flex-shrink: 0;
+    text-align: center;
+}
+.icons svg {
+    margin-right: 1.25rem;
+}

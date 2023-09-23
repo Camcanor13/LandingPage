@@ -1,0 +1,114 @@
+.info {
+    position: relative;
+    display: flex;
+    padding-top: 3rem;
+}
+
+.contact {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 3rem;
+}
+.heading {
+    color: var(--White, #fff);
+    font-feature-settings:
+        "clig" off,
+        "liga" off;
+
+    /* Heading (XL) */
+    font-family: Space Grotesk;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px; /* 100% */
+    letter-spacing: -2.5px;
+}
+.phrase {
+    color: var(--Grey, #d9d9d9);
+    font-feature-settings:
+        "clig" off,
+        "liga" off;
+
+    /* Body */
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+}
+.formulario {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--Dark-Grey, #242424);
+}
+
+.text {
+    background-color: var(--Dark-Grey, #242424);
+    border-bottom: 2px solid #fff;
+    color: gray;
+    color: var(--White, #fff);
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: -0.222px;
+    width: 100%;
+    height: 3rem;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+.textarea {
+    color: var(--White, #fff);
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: -0.222px;
+    background-color: var(--Dark-Grey, #242424);
+    border-bottom: 2px solid #fff;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.button {
+    // border-bottom: 2px solid #4ee1a0;
+    padding-bottom: 10px;
+    background-color: #242424;
+    color: var(--White, #fff);
+    font-family: Space Grotesk;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 2.286px;
+    font-weight: 600;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    cursor: pointer;
+    margin-left: auto;
+    border-radius: 1rem;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+}
+
+button:hover {
+    background-color: aqua;
+    color: black;
+}
+.underline {
+    width: 120px;
+    height: 2px;
+    background-color: #4ee1a0;
+}

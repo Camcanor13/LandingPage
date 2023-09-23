@@ -1,0 +1,67 @@
+.ListWrapper {
+    margin-top: 5rem;
+}
+.project {
+    margin-bottom: 3rem;
+    font-size: 40px;
+}
+.gridList {
+    display: grid;
+    grid-template-columns: auto auto;
+    // justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.info {
+    display: flex;
+    width: 100%;
+    min-height: 100px;
+    flex-direction: column;
+    align-items: flex-start;
+    // text-align: center;
+    gap: 14px;
+}
+.title {
+    color: var(--White, #fff);
+    font-feature-settings:
+        "clig" off,
+        "liga" off;
+
+    /* Heading (L) */
+    font-family: Space Grotesk;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -1.5px;
+}
+
+.gridPhrase {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.phrase {
+    color: var(--Grey, #d9d9d9);
+    font-feature-settings:
+        "clig" off,
+        "liga" off;
+
+    /* Body */
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+}
+
+img {
+    max-width: 400px;
+}
