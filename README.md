@@ -3,10 +3,13 @@
 IN ORDER TO RUN THIS PROJECT U HAVE TO INSTALL NPM MODULES:
 
 Follow this steps:
-  Run:
-    npm i
-    npm run dev
 
+  Run:
+	
+	npm i
+	npm run dev
+
+This will allow you to visualize the LandingPage
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
