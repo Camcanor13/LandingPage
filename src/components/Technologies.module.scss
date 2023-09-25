@@ -58,6 +58,12 @@
     line-height: 28px; /* 155.556% */
 }
 
+@media (max-width: 800px) {
+    .techWrapper {
+        align-items: center;
+        text-align: center;
+    }
+}
 // width: 290px;
 // min-height: 350px;
 // background-color: white;

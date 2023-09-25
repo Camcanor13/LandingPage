@@ -27,3 +27,15 @@
 .icons svg {
     margin-right: 1.25rem;
 }
+
+@media (max-width: 800px) {
+    .name {
+        max-width: 140px;
+    }
+    .Header {
+        flex-direction: column;
+        gap: 0;
+        text-align: center;
+        align-items: center;
+    }
+}

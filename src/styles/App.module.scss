@@ -1,7 +1,8 @@
 .App {
   min-height: 100vh;
   padding: 0rem 5rem;
-  max-width: 1900px;
+  width: 100%;
+  margin: 0rem auto;
 }
 
 * {
@@ -22,20 +23,22 @@ body {
 .Footer {
   padding: 0rem 5rem;
   background: var(--Dark-Grey, #242424);
+  margin: 0rem auto;
 }
 
 @media (max-width: 800px) {
-  .biografia .techWrapper {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .techWrapper {
-    flex-direction: column;
-  }
-  .bannerImagen {
-    width: 100%;
-    max-width: 400px;
+  .App {
+    // text-align: center;
+    padding: 0;
+    margin: auto;
+    // padding: no;
   }
 }
+
+// .techWrapper {
+//   flex-direction: column;
+// }
+// .bannerImagen {
+//   width: 100%;
+//   max-width: 400px;
+// }

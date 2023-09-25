@@ -2,6 +2,7 @@
     position: relative;
     display: flex;
     padding-top: 3rem;
+    margin-top: 5rem;
 }
 
 .contact {
@@ -111,4 +112,15 @@ button:hover {
     width: 120px;
     height: 2px;
     background-color: #4ee1a0;
+}
+
+@media (max-width: 800px) {
+    .info {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contact {
+        text-align: center;
+        align-items: center;
+    }
 }

@@ -28,3 +28,10 @@
 .icons svg {
     margin-right: 1.25rem;
 }
+
+@media (max-width: 800px) {
+    .FooterIcons {
+        flex-direction: column;
+        gap: 0;
+    }
+}
